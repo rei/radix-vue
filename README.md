@@ -1,3 +1,11 @@
+# REI Changes
+## 2024-12-03
+- Moved `dependencies` and `peerDependencies` from `packages/radix-vue/package.json` to `package.json`
+- Removed the forced `tabindex` in `packages/radix-vue/src/ScrollArea/ScrollAreaViewport.vue`
+- Removed all `.gitignore` entries for `dist` folders, to provider a no-build solution
+- Built the `radix-vue` package and committed the `dist` folder
+- Changed `link:` entries in `package.json` files to use `file:`
+
 <br />
 <p align="center">
   <a href="https://github.com/unovue/radix-vue">
