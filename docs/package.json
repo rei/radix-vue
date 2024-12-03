@@ -16,7 +16,7 @@
     "@internationalized/date": "^3.5.4",
     "@stackblitz/sdk": "^1.10.0",
     "@vueuse/core": "^10.11.0",
-    "radix-vue": "link:../packages/radix-vue",
+    "radix-vue": "file:../packages/radix-vue",
     "vue": "3.4.31",
     "vue-sonner": "^1.1.3"
   },

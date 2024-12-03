@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@internationalized/date": "^3.5.6",
-    "radix-vue": "link:../../packages/radix-vue"
+    "radix-vue": "file:../../packages/radix-vue"
   },
   "devDependencies": {
     "@floating-ui/vue": "^1.1.5",
