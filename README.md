@@ -3,13 +3,13 @@
 ## REI Notes
 - This is a fork of the [radix-vue](https://github.com/unovue/radix-vue) repository. This package is currently used by the Cedar team.
 - Requirements: `pnpm`
-- Developer workflow: run `pnpm install`, make changes, build with `pnpm build`, commit all changes.
+- Developer workflow: run `pnpm install`, make changes, build with `pnpm build`, and commit all changes.
 
 ## REI Changes
 ### 2024-12-03
 - Moved `dependencies` and `peerDependencies` from `packages/radix-vue/package.json` to `package.json`
 - Removed the forced `tabindex` in `packages/radix-vue/src/ScrollArea/ScrollAreaViewport.vue`
-- Removed all `.gitignore` entries for `dist` folders, to provider a no-build solution
+- Removed all `.gitignore` entries for `dist` folders, to provide a no-build solution
 - Built the `radix-vue` package and committed the `dist` folder
 - Changed `link:` entries in `package.json` files to use `file:`
 
