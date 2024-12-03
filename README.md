@@ -1,5 +1,10 @@
-# REI Changes
-## 2024-12-03
+# Radix Vue
+
+## REI Notes
+This is a fork of the [radix-vue](https://github.com/unovue/radix-vue) repository. This package is currently used by the Cedar team.
+
+## REI Changes
+### 2024-12-03
 - Moved `dependencies` and `peerDependencies` from `packages/radix-vue/package.json` to `package.json`
 - Removed the forced `tabindex` in `packages/radix-vue/src/ScrollArea/ScrollAreaViewport.vue`
 - Removed all `.gitignore` entries for `dist` folders, to provider a no-build solution
