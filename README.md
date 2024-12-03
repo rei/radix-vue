@@ -1,7 +1,9 @@
 # Radix Vue
 
 ## REI Notes
-This is a fork of the [radix-vue](https://github.com/unovue/radix-vue) repository. This package is currently used by the Cedar team.
+- This is a fork of the [radix-vue](https://github.com/unovue/radix-vue) repository. This package is currently used by the Cedar team.
+- Requirements: `pnpm`
+- Developer workflow: run `pnpm install`, make changes, build with `pnpm build`, commit all changes.
 
 ## REI Changes
 ### 2024-12-03
@@ -10,6 +12,8 @@ This is a fork of the [radix-vue](https://github.com/unovue/radix-vue) repositor
 - Removed all `.gitignore` entries for `dist` folders, to provider a no-build solution
 - Built the `radix-vue` package and committed the `dist` folder
 - Changed `link:` entries in `package.json` files to use `file:`
+
+***
 
 <br />
 <p align="center">
