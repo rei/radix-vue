@@ -1,6 +1,6 @@
 {
   "name": "radix-vue",
-  "version": "1.9.14",
+  "version": "1.9.15",
   "private": true,
   "packageManager": "pnpm@9.4.0",
   "license": "MIT",
@@ -10,8 +10,9 @@
   ],
   "exports": {
     ".": {
+      "types": "./packages/radix-vue/dist/index.d.ts",
       "import": "./packages/radix-vue/dist/index.js",
-      "require": "./packages/radix-vue/dist/index.js"
+      "require": "./packages/radix-vue/dist/index.umd.cjs"
     }
   },
   "scripts": {
