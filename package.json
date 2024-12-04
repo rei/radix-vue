@@ -1,6 +1,6 @@
 {
   "name": "radix-vue",
-  "version": "1.9.10",
+  "version": "1.9.14",
   "private": true,
   "packageManager": "pnpm@9.4.0",
   "license": "MIT",
@@ -8,6 +8,12 @@
   "workspaces": [
     "packages/*"
   ],
+  "exports": {
+    ".": {
+      "import": "./packages/radix-vue/dist/index.js",
+      "require": "./packages/radix-vue/dist/index.js"
+    }
+  },
   "scripts": {
     "story:dev": "pnpm --filter histoire story:dev --open",
     "build": "rimraf packages/radix-vue/dist  && pnpm run --filter radix-vue build && pnpm run --filter plugins build",
